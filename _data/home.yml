@@ -14,7 +14,7 @@ project_entries:
     desc: This is an example project, configured in _data/home.yml
 
   - title: DDR
-    url: DDR-Overview
+    url: ddr-overview
     desc: Projects are shown in card layout
 
   - title: UVM
