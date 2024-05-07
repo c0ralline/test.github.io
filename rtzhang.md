@@ -1,4 +1,4 @@
-hello
+
 ---
 layout: post
 title: About
