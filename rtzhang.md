@@ -1,6 +1,5 @@
 ---
 layout: post
-title: About
+title: Welcome
 ---
 
-Welcome to my e-home
