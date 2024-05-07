@@ -1,7 +1,7 @@
 ---
 layout: post
 author: root
-tags: [ddr, ddr3, MRS]
+tags: [ddr]
 ---
 
 ## Content
