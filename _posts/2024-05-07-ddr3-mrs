@@ -1,0 +1,16 @@
+---
+author: root
+tags: [ddr, ddr3, spec, MRS]
+---
+
+### MRS (Mode Register Set)
+
+在DDR3初始化中，CKE拉高后，CLK生效，之后开始发送command命令
+
+MRS的配置顺序： MR2 -> MR3 -> MR1 -> MR0
+
+MR通过BA信号进行选择
+
+MRS完成后进行ZQ校准
+
+tZQinit时间后，DDR valid， 进入IDLE状态， 后续可进行读写。
