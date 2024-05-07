@@ -1,6 +1,6 @@
 navbar_entries:
-  - title: rtzhang
-    url: rtzhang
+  - title: root
+    url: root
 
   - title: blog
     url: blog
