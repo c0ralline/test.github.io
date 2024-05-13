@@ -22,6 +22,10 @@ project_entries:
     desc: nets
   #  highlight: WIP
 
+  - title: language
+    url: overview-post
+    desc: Japanese
+
   - title: Others
     url: overview-post
     desc: history, geometry, fiction
