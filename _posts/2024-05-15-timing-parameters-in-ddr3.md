@@ -26,7 +26,9 @@ CL和CWL影响tCK的配置，当ddr_speed增加时，为了保证数据的准确
 
 ## tREFI
 
-refresh interval
+refresh interval time
+
+对于DDR，tREFI的典型值为7.8us，不受ddr_speed影响
 
 ## trefprd
 
