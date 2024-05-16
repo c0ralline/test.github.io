@@ -23,3 +23,11 @@
 ## CL&CWL
 
 CL和CWL影响tCK的配置，当ddr_speed增加时，为了保证数据的准确，CL和CWL通常也会随之增加。
+
+## tREFI
+
+refresh interval
+
+## trefprd
+
+refresh 操作所需时间周期
