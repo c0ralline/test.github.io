@@ -29,3 +29,16 @@ NLDM对cell的输入和输出分别建模，输入端定义为driver model，用
 区别：
 1. NLDM简单，快速; CCS复杂，精确
 2. CCS模型中增加了噪声相关的参数
+
+---
+## Parameter
+
+### timing derate
+
+timing derate用于指定timing path的缩放因子
+
+通常在worst-case下进行set-up时序检查，以验证最差情况下的data-path是否符合要求。
+
+但wc下capture-clock-path也变差，难以检查到最差data-path，最好capure-clock-path的“真”最差情况。
+
+所以对capure-clock-path增加一个小于1的derate，减小capure-clock-path-delay
