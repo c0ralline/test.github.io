@@ -24,11 +24,26 @@
 
 CL和CWL影响tCK的配置，当ddr_speed增加时，为了保证数据的准确，CL和CWL通常也会随之增加。
 
-## tREFI
+---
+```
+refresh 刷新操作由mc发出，在总线上形成指令实现
+· auto-refresh mc自动发出refresh命令
+· 通过寄存器配置发送刷新指令
+刷新的具体操作由颗粒自己完成
+```
+## tREFI (refresh interval time)
 
-refresh interval time
+发送两个刷新命令的间隔时间，对于DDR，tREFI的典型值为7.8us，不受ddr_speed影响
 
-对于DDR，tREFI的典型值为7.8us，不受ddr_speed影响
+两个刷新命令的最长间隔，是9个tREFI
+
+## tREFW (refresh window)
+
+在时间窗口内，必须把所有的行都刷新一次
+
+## tREFC (refresh command)
+
+执行一个刷新命令所需要的时间
 
 ## trefprd
 
