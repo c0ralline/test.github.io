@@ -1,5 +1,21 @@
 # DDR3时序参数
 
+```
+读过程包括两部步：发送地址，读取数据
+寻址过程包括 
+①同时发出bank地址和row地址，称之为“ACTIVE”
+②发送列地址和读命令，称为“READ”
+·ACTIVE和READ两个命令的间隔就是tRCD，也就是发送行地址和列地址之间的间隔
+·发送READ后tCL，获得DQ&DQS
+·此时发送的DQ&DQS边沿是对齐的，不利于采样，在送到MC中后，会对DQS增加一定延时，使DQS的边沿和DQ数据中心对齐
+```
+
+|command|CKE|CS#|RAS#|CAS#|WE#|BA[2:0]|A[12:0]|
+|---|---|---|---|---|---|---|---|
+|ACTIVE|H|L|L|H|H|BA|ROW ADDRESS|
+|READ|H|L|H|L|H|BA|COLUNM ADDRESS|
+
+
 ## CL (CAS [Column Address Strobe] Latency)
 
 列地址选通延时，也就是读取延时，指memory controller发出读指令后，经过CL个周期，数据从DDR中读出，出现在传输线上。
