@@ -7,7 +7,7 @@
 ②发送列地址和读命令，称为“READ”
 ·ACTIVE和READ两个命令的间隔就是tRCD，也就是发送行地址和列地址之间的间隔
 ·发送READ后tCL，获得DQ&DQS
-·此时发送的DQ&DQS边沿是对齐的，不利于采样，在送到MC中后，会对DQS增加一定延时，使DQS的边沿和DQ数据中心对齐
+·此时发送的DQ&DQS边沿几乎对齐的，不利于采样，在送到MC中后，会对DQS增加一定延时，使DQS的边沿和DQ数据中心对齐
 ```
 
 |command|CKE|CS#|RAS#|CAS#|WE#|BA[2:0]|A[12:0]|
@@ -15,6 +15,14 @@
 |ACTIVE|H|L|L|H|H|BA|ROW ADDRESS|
 |READ|H|L|H|L|H|BA|COLUNM ADDRESS|
 
+```
+写过程与读过程类似
+WRITE命令发出后tCWL，第一个数据DQ用DQS边沿采样进颗粒，此时的DQS已经和DQ中心对齐
+```
+|command|CKE|CS#|RAS#|CAS#|WE#|BA[2:0]|A[12:0]|
+|---|---|---|---|---|---|---|---|
+|ACTIVE|H|L|L|H|H|BA|ROW ADDRESS|
+|WRITE|H|L|H|L|L|BA|COLUNM ADDRESS|
 
 ## CL (CAS [Column Address Strobe] Latency)
 
