@@ -9,22 +9,22 @@ navbar_entries:
     url: https://www.abhinav.co
 
 project_entries:
-  - title: software
-    url: overview-post
+  - title: tcl
+    url: overview-tcl
     desc: python
 
   - title: hardware
-    url: overview-overview
+    url: overview-hardware
     desc: verilog, DDR, UVM
 
   - title: algorithm
-    url: overview-post
+    url: overview-algorithm
     desc: nets
   #  highlight: WIP
 
   - title: language
-    url: overview-post
-    desc: Japanese
+    url: overview-language
+    desc: Japanese,English
 
   - title: Others
     url: overview-post
@@ -36,10 +36,10 @@ footer_entries:
     url: https://www.abhinav.co
 
   - title: twitter
-    url: https://twitter.com/abhinav
+    url: false
 
   - title: github
-    url: https://github.com/abhinavs
+    url: https://github.com/c0ralline
 
   - title: feed
     url: feed.xml
