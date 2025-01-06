@@ -1,6 +1,5 @@
 links:
-  - title: crosstalk
-    url: https://c0ralline.github.io/test.github.io/crosstalk
+1. [crosstalk](https://c0ralline.github.io/test.github.io/crosstalk)
 
   - title: blog
     url: blog
