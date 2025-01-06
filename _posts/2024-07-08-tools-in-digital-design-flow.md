@@ -8,9 +8,25 @@
 
 synopsys，用于评估RTL代码质量，检查语法规则
 
+① spyglass lint
+
+② spyglass cdc
+
 ## ccd 
 
 **Conformal Constrain Designer**，cadence，用于验证时序约束的正确性，检查跨时钟域（CDC）信号是否正确
+
+① ccd lint 检查rtl代码的语法是否符合规则
+
+② ccd cdc 检查跨时钟域路径(cdc path)是否经过处理
+主要包括三类检查
+  - cdc_checks
+  - clock_conv
+  - reset
+
+在清理cdc错误时，可通过两种方法：
+  - 编辑静态信号列表
+  - 编辑waive file
 
 ## lec
 
@@ -22,6 +38,7 @@ synopsys，用于评估RTL代码质量，检查语法规则
 
 具体流程为： 
 ① 分别手动修改RTL,综合网表(syn netlist)和后端网表(pr netlist)
+
 ② 将三者两两比较，确定一致性
   - rtl **vs** syn netlist
   - rtl **vs** pr netlist
