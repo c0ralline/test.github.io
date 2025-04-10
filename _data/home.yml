@@ -9,9 +9,9 @@ navbar_entries:
     url: false
 
 project_entries:
-  - title: tcl
-    url: overview-tcl
-    desc: python
+  - title: tools
+    url: overview-tools
+    desc: python,linux,excel,word
 
   - title: hardware
     url: overview-hardware
