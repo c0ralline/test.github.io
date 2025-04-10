@@ -7,4 +7,5 @@
 
 #### vim
 1. [substitute](https://github.com/c0ralline/test.github.io/blob/main/_posts/2024-05-14-substitute-and-regular-expression-in-vim.md)
-2. []()
+2. [shortcut-in-vim](https://github.com/c0ralline/test.github.io/blob/main/_posts/2024-05-23-ctrl-shortcut-in-vim.md)
+3. 
