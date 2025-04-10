@@ -6,9 +6,12 @@ links:
 4. [tools-in-digital-design-flow](https://c0ralline.github.io/test.github.io/tools-in-digital-design-flow)
 5. [xrun](https://github.com/c0ralline/test.github.io/blob/main/_posts/2024-05-11-xrun.md)
 6. [spef](https://github.com/c0ralline/test.github.io/blob/main/_posts/2024-05-20-spef.md)
+7. [signal-intergrity](https://github.com/c0ralline/test.github.io/blob/main/_posts/2024-06-06-signal-intergrity.md)
+8. [statistical-timing-analysis](https://github.com/c0ralline/test.github.io/blob/main/_posts/2024-06-06-statistical-timing-analysis.md)
 
 #### verilog
-1.[supply](https://github.com/c0ralline/test.github.io/blob/main/_posts/2024-05-13-verilog-supply.md)
+1. [supply](https://github.com/c0ralline/test.github.io/blob/main/_posts/2024-05-13-verilog-supply.md)
+2. [transmission-gate](https://github.com/c0ralline/test.github.io/blob/main/_posts/2024-05-28-transmission-gate-in-verilog.md)
 
 #### ddr
 1. [ddr-prefetch](https://c0ralline.github.io/test.github.io/ddr-prefetch)
