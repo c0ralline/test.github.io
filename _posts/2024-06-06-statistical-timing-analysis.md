@@ -1,6 +1,5 @@
 tag: sta, lib, model
 
----
 
 ## model
 
@@ -42,3 +41,11 @@ timing derate用于指定timing path的缩放因子
 但wc下capture-clock-path也变差，难以检查到最差data-path，最好capure-clock-path的“真”最差情况。
 
 所以对capure-clock-path增加一个小于1的derate，减小capure-clock-path-delay
+
+## recovery & removal time
+
+用于描述异步信号与时钟的关系
+
+#### recovery time : 异步信号set/reset在clk有效边缘到来前，必须保持稳定的时间 (相当于setup)
+
+#### removal time ： 异步信号set/reset在clk有效边缘之后，仍然需要保持稳定的时间 (hold)
