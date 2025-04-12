@@ -4,7 +4,7 @@ tag: sta, lib, model
 
 [derate](#Parameter)
 
-[recovery & removal time](#recovery & removal time)
+[recovery & removal time](#recovery&removal)
 
 ## model
 
@@ -47,7 +47,7 @@ timing derate用于指定timing path的缩放因子
 
 所以对capure-clock-path增加一个小于1的derate，减小capure-clock-path-delay
 
-## recovery & removal time
+## recovery&removal
 
 用于描述异步信号与时钟的关系
 
