@@ -6,6 +6,8 @@ tag: sta, lib, model
 
 [recovery & removal time](#recovery&removal)
 
+[lvt](#threshhold_voltage)
+
 ## model
 
 静态时序分析中不同的模型，用于模拟不同标准单元的delay
@@ -55,7 +57,7 @@ timing derate用于指定timing path的缩放因子
 
 #### removal time ： 异步信号set/reset在clk有效边缘之后，仍然需要保持稳定的时间 (hold)
 
-## threshhold voltage
+## threshhold_voltage
 
 阈值电压： 指MOSFET从关闭状态切换到导通状态需要的最小栅极电压，当NMOS Vgs>Vth时，沟道形成，开始导通。
 
