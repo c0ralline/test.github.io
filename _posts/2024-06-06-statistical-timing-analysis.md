@@ -1,5 +1,10 @@
 tag: sta, lib, model
 
+[ccs & nldm](#model)
+
+[derate](#Parameter)
+
+[recovery & removal time](#recovery & removal time)
 
 ## model
 
@@ -49,3 +54,15 @@ timing derate用于指定timing path的缩放因子
 #### recovery time : 异步信号set/reset在clk有效边缘到来前，必须保持稳定的时间 (相当于setup)
 
 #### removal time ： 异步信号set/reset在clk有效边缘之后，仍然需要保持稳定的时间 (hold)
+
+## threshhold voltage
+
+阈值电压： 指MOSFET从关闭状态切换到导通状态需要的最小栅极电压，当NMOS Vgs>Vth时，沟道形成，开始导通。
+
+根据阈值电压的高低，晶体管分为LVT(low),SVT(standard),HVT(high)
+
+不同晶体管特点不同：
+ - LVT晶体管启动快，延时低，速度高，适合高频电路，但漏电流(leakage)大
+ - HV速度慢，但抗噪声能力强，稳定性高
+
+在SDL中使用LVT 
