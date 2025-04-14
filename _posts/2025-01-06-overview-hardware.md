@@ -8,6 +8,7 @@ links:
 6. [spef](https://github.com/c0ralline/test.github.io/blob/main/_posts/2024-05-20-spef.md)
 7. [signal-intergrity](https://github.com/c0ralline/test.github.io/blob/main/_posts/2024-06-06-signal-intergrity.md)
 8. [statistical-timing-analysis](https://github.com/c0ralline/test.github.io/blob/main/_posts/2024-06-06-statistical-timing-analysis.md)
+9. [rst_n_sync](https://github.com/c0ralline/test.github.io/blob/main/2025-04-14-Asynchronous-Reset-Synchronous-Release.md) 
 
 #### verilog
 1. [supply](https://github.com/c0ralline/test.github.io/blob/main/_posts/2024-05-13-verilog-supply.md)
