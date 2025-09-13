@@ -13,6 +13,7 @@ links:
 #### verilog
 1. [supply](https://github.com/c0ralline/test.github.io/blob/main/_posts/2024-05-13-verilog-supply.md)
 2. [transmission-gate](https://github.com/c0ralline/test.github.io/blob/main/_posts/2024-05-28-transmission-gate-in-verilog.md)
+3. [Asynchronous-reset-synchronous-release](https://github.com/c0ralline/test.github.io/blob/main/_posts/2025-09-13-Asynchronous-reset-synchronous-release.md)
 
 #### ddr
 1. [ddr-prefetch](https://c0ralline.github.io/test.github.io/ddr-prefetch)
