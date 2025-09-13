@@ -6,7 +6,7 @@
 
 当复位信号释放时(低有效则为1),用clk进行同步处理后，再释放
 
-```
+```verilog
 wire clk, rst_n;
 reg  rst_n_d, rst_n_sync;
 
@@ -17,4 +17,5 @@ always@(posedge clk or negedge rst_n)
     else begin
         rst_n_d<=rst_n;
         rst_n_sync<=rst_n_d;end
-```verilog
+```
+
