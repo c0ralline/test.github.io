@@ -4,7 +4,7 @@ links:https://github.com/c0ralline/test.github.io/blob/main/_posts/2025-01-06-ov
 2. [sta](https://c0ralline.github.io/test.github.io/sta)
 3. [xilinx-primitive](https://c0ralline.github.io/test.github.io/xilinx-primitive)
 4. [tools-in-digital-design-flow](https://c0ralline.github.io/test.github.io/tools-in-digital-design-flow)
-5. [xrun](https://c0ralline.github.io/test.github.io/2024-05-11-xrun.md)
+5. [xrun](https://c0ralline.github.io/test.github.io/xrun)
 6. [spef](https://github.com/c0ralline/test.github.io/blob/main/_posts/2024-05-20-spef.md)
 7. [signal-intergrity](https://github.com/c0ralline/test.github.io/blob/main/_posts/2024-06-06-signal-intergrity.md)
 8. [statistical-timing-analysis](https://github.com/c0ralline/test.github.io/blob/main/_posts/2024-06-06-statistical-timing-analysis.md)
