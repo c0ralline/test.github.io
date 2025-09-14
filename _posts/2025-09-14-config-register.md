@@ -22,8 +22,8 @@ module config_register(
 );
 
 reg rw_reg0;
-localparam rw_reg0_addr;
-localparam ro_reg0_addr;
+localparam rw_reg0_addr=1;
+localparam ro_reg0_addr=2;
 
 //ctrl signal
 assign pslverr=1'b0;
