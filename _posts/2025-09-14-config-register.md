@@ -7,18 +7,19 @@
 module config_register(
 
 //apb ports
-  input pclk,prst_n;
-  input [31:0] pwdata;
-  input [15:0] paddr;
-  input psel,pwrite,penable;
-  output [31:0] prdata;
-  output pslverr,pready;
+  input pclk,prst_n,
+  input [31:0] pwdata,
+  input [15:0] paddr,
+  input psel,pwrite,penable,
+  output [31:0] prdata,
+  output pslverr,pready,
 
 //rw_regs
-  output cfg_rw_reg0;
+  output cfg_rw_reg0,
 
 //ro_regs
-  input cfg_ro_reg0;
+  input cfg_ro_reg0
+);
 
 reg rw_reg0;
 localparam rw_reg0_addr;
@@ -44,7 +45,7 @@ always@(posedge pclk or negedge prst_n)
     rw_reg0_addr: prdata<={31'b0,rw_reg0};
     ro_reg0_addr: prdata<={31'b0,cfg_ro_reg0};
   endcase
-);
+
 
 endmodule
 ```
