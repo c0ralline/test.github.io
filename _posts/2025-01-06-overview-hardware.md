@@ -16,6 +16,7 @@ links:https://github.com/c0ralline/test.github.io/blob/main/_posts/2025-01-06-ov
 3. [Asynchronous-reset-synchronous-release](https://c0ralline.github.io/test.github.io/Asynchronous-reset-synchronous-release)
 4. [config-register](https://c0ralline.github.io/test.github.io/config-register)
 5. [apb-cross-clk-domain](https://c0ralline.github.io/test.github.io/apb-cross-clk-domain)
+6. [verilog-operators](https://c0ralline.github.io/test.github.io/verilog-operators)
 
 #### ddr
 1. [ddr-prefetch](https://c0ralline.github.io/test.github.io/ddr-prefetch)
