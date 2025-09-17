@@ -1,11 +1,13 @@
 ### links
 
 #### linux
-1. [linux-sed](https://github.com/c0ralline/test.github.io/blob/main/_posts/2024-05-10-linux-sed.md)
-2. [linux-command-ps](https://github.com/c0ralline/test.github.io/blob/main/_posts/2024-05-23-linux-command-ps.md)
-3. [linux-common-command](https://github.com/c0ralline/test.github.io/blob/main/_posts/2024-05-30-linux-common-command.md)
+1. [linux-sed](https://c0ralline.github.io/test.github.io/linux-sed)
+2. [linux-command-ps](https://c0ralline.github.io/test.github.io/linux-command-ps)
+3. [linux-common-command](https://c0ralline.github.io/test.github.io/linux-common-command)
 
 #### vim
-1. [substitute](https://github.com/c0ralline/test.github.io/blob/main/_posts/2024-05-14-substitute-and-regular-expression-in-vim.md)
-2. [shortcut-in-vim](https://github.com/c0ralline/test.github.io/blob/main/_posts/2024-05-23-ctrl-shortcut-in-vim.md)
-3. 
+1. [substitute](https://c0ralline.github.io/test.github.io/substitute-and-regular-expression-in-vim)
+2. [shortcut-in-vim](https://c0ralline.github.io/test.github.io/ctrl-shortcut-in-vim)
+
+#### python
+1. [openpyxl](https://c0ralline.github.io/test.github.io/openpyxl)
