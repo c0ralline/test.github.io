@@ -1,6 +1,18 @@
 # delay line in ddrphy
 label: ddr
 
+## 为什么需要delay line？
+
+### vt tracking
+
+在实际电路使用过程中，会伴随电压V和温度T的变化drift
+
+温度T上升时， 电子无规则布朗运动加强，电子迁移率降低，delay增大
+
+电压V上升时，晶体管驱动电流增大，delay减小
+
+## delay 如何实现？
+
 SDL (Standard cell Delay Line)
 
 CDL (Custom cell Delay Line)
