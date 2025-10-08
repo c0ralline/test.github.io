@@ -8,6 +8,7 @@ links:https://github.com/c0ralline/test.github.io/blob/main/_posts/2025-01-06-ov
 6. [spef](https://c0ralline.github.io/test.github.io/spef)
 7. [signal-intergrity](https://c0ralline.github.io/test.github.io/signal-intergrity)
 8. [statistical-timing-analysis](https://c0ralline.github.io/test.github.io/statistical-timing-analysis)
+9. [vcs-error](https://c0ralline.github.io/test.github.io/vcs-error)
 
 
 #### verilog
