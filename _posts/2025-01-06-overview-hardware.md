@@ -18,6 +18,7 @@ links:https://github.com/c0ralline/test.github.io/blob/main/_posts/2025-01-06-ov
 4. [config-register](https://c0ralline.github.io/test.github.io/config-register)
 5. [verilog-operators](https://c0ralline.github.io/test.github.io/verilog-operators)
 6. [async-fifo](https://c0ralline.github.io/test.github.io/async-fifo)
+7. [clk-glitch-filter](https://c0ralline.github.io/test.github.io/clk-glitch-filter)
 
 #### ddr
 1. [ddr-prefetch](https://c0ralline.github.io/test.github.io/ddr-prefetch)
