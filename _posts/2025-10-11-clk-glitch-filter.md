@@ -1,3 +1,8 @@
+一个仅由与非门和反相器构成的时钟毛刺过滤电路
+ - 当flt_en信号为1时有效，此时NAND链等效反相器链
+ - 毛刺通过clk_in经过delay后再经过NAND逻辑门滤除
+ - 最后两个2输入NAND门构成RS触发器
+
 ```verilog
 module clk_glitch_filter(
     input clk_in,
@@ -20,9 +25,11 @@ module clk_glitch_filter(
     nand nand8(clk_in_d8, clk_in_d7, flt_en);
     nand nand9(clk_in_d9, clk_in_d8, flt_en);
 
-    //nand
+    nand nand10(clk_in_d10,clk_in,1'b1);
+
+    //nand3
     nand nand3_1(clk_in_nand3_1, clk_in, clk_in_d4,clk_in_d8);
-    nand nand3_2(clk_in_nand3_2, clk_in_d1, clk_in_d5,clk_in_d9);
+    nand nand3_2(clk_in_nand3_2, clk_in_d10, clk_in_d5,clk_in_d9);
 
     //inv
     not not1(clk_in_nand3_1_inv,clk_in_nand3_1);
