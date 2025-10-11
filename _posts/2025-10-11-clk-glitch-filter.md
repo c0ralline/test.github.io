@@ -1,7 +1,7 @@
 一个仅由与非门和反相器构成的时钟毛刺过滤电路
  - 当flt_en信号为1时有效，此时NAND链等效反相器链
  - 毛刺通过clk_in经过delay后再经过NAND逻辑门滤除
- - 最后两个2输入NAND门构成RS触发器
+ - 最后两个2输入NAND门构成RS锁存器
 
 <img width="2533" height="712" alt="image" src="https://github.com/user-attachments/assets/c47d7388-c092-457d-a618-6278e8b9eb46" />
 
