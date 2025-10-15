@@ -29,4 +29,14 @@ CDL (Custom cell Delay Line)
 
 <img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/92a63994-0844-4ae2-9940-4834f5d0b797" />
 
+## delayline如何实现calibration
 
+原理
+ - ddr_clk经过SDL延时链，得到ddr_clk_dly
+ - 用ddr_clk_dly采样cal_en，得到cal_en_dly
+ - 用ddr_clk打两拍采样cal_en，得到cal_en_ndly
+ - 最后，用cal_en_dly采样cal_en_ndly，得到cal_out
+ - 如果cal_out=1，表示cal_en_ndly早于cal_en_dly，也就是SDL延时链大于一个ddr_clk周期
+ - 如果cal_out=0，表示cal_en_ndly晚于cal_en_dly，也就是SDL延时链小于一个ddr_clk周期
+
+也就是说，calibration的过程是，cali模块通过SDL链去量ddr_clk在当前v，t下等效多少级SDL延时
