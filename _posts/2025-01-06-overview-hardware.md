@@ -28,6 +28,7 @@ links:https://github.com/c0ralline/test.github.io/blob/main/_posts/2025-01-06-ov
 5. [timing-parameters-in-ddr3](https://c0ralline.github.io/test.github.io/timing-parameters-in-ddr3)
 6. [ddr3-mrs](https://c0ralline.github.io/test.github.io/ddr3-mrs)
 7. [delayline](https://c0ralline.github.io/test.github.io/ddr-delay-line)
+8. [ddr4-pin-comparison](https://c0ralline.github.io/test.github.io/ddr4-pin-comparison)
 
 #### apb
 1. [apb](https://c0ralline.github.io/test.github.io/apb)
