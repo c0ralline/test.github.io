@@ -3,7 +3,7 @@
  - 毛刺通过clk_in经过delay后再经过NAND逻辑门滤除
  - 最后两个2输入NAND门构成RS锁存器
 
-<img width="2533" height="712" alt="image" src="https://github.com/user-attachments/assets/c47d7388-c092-457d-a618-6278e8b9eb46" />
+<img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/c47d7388-c092-457d-a618-6278e8b9eb46" />
 
 
 ```verilog
